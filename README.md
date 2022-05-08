@@ -3,6 +3,7 @@
 This assignment has you performing basic git commands for adding, committing, branching, and working with remote repositories.  The grading will be based on the commit history and branches that are pushed to your Gitlab assignment 1a repository.
 
 Do the follow:
+# Basic Git Commands
 
 1. Install git
    - Configure your username and email
@@ -44,11 +45,12 @@ Do the follow:
     ```
 10. Examine the git log to notice how the origin/main has changed
 
-11. Push **feature-1** and **bug-1**  branches to the origin.  For branches you need first specify the remote tracking branches
+#Working with Remotes
+11. Push **feature-1** and **bug-1**  branches to the origin.  For branches you need first specify the remote tracking branches. Do the following for both branches
     ```
-    git push -u origin feature-1
+    git push -u origin <branch name>
              or
-    git push --set-upstream origin feature-1
+    git push --set-upstream origin <branch name>
     ```
 12. Review on Gitlab that all branches are now present.
 13. Push changes from each branch to remote repository
@@ -63,10 +65,13 @@ Do the follow:
     - Review the changes by selecting the "Changes" tab at the top of the screen
     - Add a comment about the change
     - Merge the change in to main by selecting "Merge" button.
-16. Pull merged changes into your local repository since it has change.
+16. Pull merged changes into your local repository since it has changed.
     - Review git log
     - Switch to **main**
     - Pull remote changes down
     ```
     git pull origin
     ```
+17. Create a branch of your choosing.  Add a few text files, modifying files after initial commits, thus ending have multiple commits. Push the branch to the remote repository.  Create a pull request and process it to have changes merged into **main** branch
+
+Grading will be based on commit history reflecting completing the steps above. 
