@@ -20,7 +20,7 @@ Do the follow:
   - Add ssh key to account
 3. Initialize a new git local repository by cloning assignment 1a repository to lcoal git environment 
     ```
-    git clone https://gitlab.com/cpsc4970-sum-a/aubie/assignment-1a.git
+    git clone https://gitlab.com/cpsc4970-sum-a/<your project>/assignment-1a.git
     ```
 
 4. Create two branches name **feature-1** and **bug-1**
@@ -74,4 +74,4 @@ Do the follow:
     ```
 17. Create a branch of your choosing.  Add a few text files, modifying files after initial commits, thus ending have multiple commits. Push the branch to the remote repository.  Create a pull request and process it to have changes merged into **main** branch
 
-Grading will be based on commit history reflecting completing the steps above. 
+Grading will be based on commit history reflecting completing the steps above and completed quiz.
