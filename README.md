@@ -22,7 +22,7 @@ Do the follow:
     git clone https://gitlab.com/cpsc4970-sum-a/aubie/assignment-1a.git
     ```
 
-4. Create two branches name <span style="color: orange">feature-1</span> and <span style="color: orange">bug-1</span>
+4. Create two branches name **feature-1** and **bug-1**
 
 
 5. Add and commit a text file to each branch containing a quote from a movie.  File name can be the name of the movie.
@@ -33,7 +33,7 @@ Do the follow:
     git lg
     git lg2
     ```
-8. Switch to <span style="color: orange">main</span> branch and merge the branches
+8. Switch to **main** branch and merge the branches
     ```
     git merge feature-1
     git merge bug-1
@@ -44,7 +44,7 @@ Do the follow:
     ```
 10. Examine the git log to notice how the origin/main has changed
 
-11. Push <span style="color: orange">feature-1</span> and <span style="color: orange">bug-1</span>  branches to the origin.  For branches you need first specify the remote tracking branches
+11. Push **feature-1** and **bug-1**  branches to the origin.  For branches you need first specify the remote tracking branches
     ```
     git push -u origin feature-1
              or
@@ -65,7 +65,7 @@ Do the follow:
     - Merge the change in to main by selecting "Merge" button.
 16. Pull merged changes into your local repository since it has change.
     - Review git log
-    - Switch to <span style="color: orange">main</span>
+    - Switch to **main**
     - Pull remote changes down
     ```
     git pull origin
