@@ -45,7 +45,8 @@ Do the follow:
     ```
 10. Examine the git log to notice how the origin/main has changed
 
-#Working with Remotes
+# Working with Remotes
+
 11. Push **feature-1** and **bug-1**  branches to the origin.  For branches you need first specify the remote tracking branches. Do the following for both branches
     ```
     git push -u origin <branch name>
